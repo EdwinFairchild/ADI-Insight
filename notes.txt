@@ -1,0 +1,16 @@
+pip install pyocd
+
+helpful info:
+https://github.dev/pyocd/pyOCD/blob/main/docs/options.md
+
+Hijack the builtin support for max32660 because I could not get custom target to work
+
+path to pyocd bultin after pip installing:
+~/.local/lib/python3.10/site-packages/pyocd/target/builtin
+
+running the command below will print the variable live as it changes
+without messing with ble timing. 
+python pyocd_test.py
+
+next steps would be to move svd file here and parse it,
+and then parse elf file to get memory addresses of variables.
