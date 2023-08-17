@@ -32,6 +32,7 @@ def main():
         target.resume() # Add this line
        #variable_addresses = [0x20001374, 0x20000008]  # Replace with actual addresses
        # address of counter varaible in wsf timer
+       
         variable_addresses = [0x20001374]  # Replace with actual addresses
         monitor_variables(target, variable_addresses)
 
