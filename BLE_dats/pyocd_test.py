@@ -1,5 +1,5 @@
 from pyocd.core.helpers import ConnectHelper
-from target_max32655 import MAX32655  # Make sure this import corresponds to the actual location of your custom target file
+#from target_max32655 import MAX32655  # Make sure this import corresponds to the actual location of your custom target file
 import time
 import logging
 logging.basicConfig(level=logging.DEBUG)

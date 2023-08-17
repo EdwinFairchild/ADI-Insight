@@ -14,3 +14,7 @@ python pyocd_test.py
 
 next steps would be to move svd file here and parse it,
 and then parse elf file to get memory addresses of variables.
+
+
+notion:
+https://www.notion.so/edwinfairchild/PyOcd-5f83be40b9314764bf5b35100da41306
